@@ -68,12 +68,12 @@ cd corkboard/
 cargo run
 ```
 
-### Setup Backend Server (Game)
+### Setup Backend Server (Hosted-Server)
 Back to the parent directory
 
 ```bash
-git clone https://gitlab.com/opencode-mit/fuiz/game
-cd game/
+git clone https://gitlab.com/opencode-mit/fuiz/hosted-server
+cd hosted-server/
 cargo run
 ```
 
@@ -89,12 +89,15 @@ npm install
 Create  `.env.local` inside `website` (should be the current directory now) with:
 
 ```config
+AUTH_SECRET={random string: bunx auth auth secret}
 PUBLIC_DISPLAY_PLAY_URL="127.0.0.1:5173"
 PUBLIC_PLAY_URL="http://127.0.0.1:5173"
 PUBLIC_BACKEND_URL="http://127.0.0.1:8080"
 PUBLIC_WS_URL="ws://127.0.0.1:8080"
 PUBLIC_CORKBOARD_URL="http://127.0.0.1:5040"
 ```
+
+Note: some of these ports can be different depending on your environment.
 
 Start the project
 
