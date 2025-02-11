@@ -2,9 +2,9 @@
 
 Host live quizzes freeely
 
-<img src="https://gitlab.com/opencode-mit/fuiz/website/-/raw/main/static/favicon.svg?ref_type=heads" width="128" height="128" alt="Fuiz icon">
+<img src="https://gitlab.com/fuiz/website/-/raw/main/static/favicon.svg?ref_type=heads" width="128" height="128" alt="Fuiz icon">
 
-[![License](https://img.shields.io/gitlab/license/opencode-mit/fuiz/website?style=for-the-badge)](https://gitlab.com/opencode-mit/fuiz/website/-/raw/main/LICENSE)
+[![License](https://img.shields.io/gitlab/license/fuiz/website?style=for-the-badge)](https://gitlab.com/fuiz/website/-/raw/main/LICENSE)
 
 ## About
 
@@ -22,13 +22,13 @@ If you cannot donate, please share the word!
 
 ## Translations
 
-Fuiz is under heavy development so strings often keep getting changed and added. Nonetheless, if yoou want to add your translations, feel free to do so by creating a merge request adding your translation similar to [en.json](https://gitlab.com/opencode-mit/fuiz/website/-/blob/main/messages/en.json).
+Fuiz is under heavy development so strings often keep getting changed and added. Nonetheless, if yoou want to add your translations, feel free to do so by creating a merge request adding your translation similar to [en.json](https://gitlab.com/fuiz/website/-/blob/main/messages/en.json).
 
 ## Contribution
 
 If you want to contribute a non-trivial amount please create an issue first so we can collaborate more efficiently. At the moment I treat this repo as if I'm the solo developer. So expect stuff to be slightly janky.
 
-## [Limits](https://gitlab.com/opencode-mit/fuiz/game/-/blob/main/config.toml)
+## [Limits](https://gitlab.com/fuiz/game/-/blob/main/config.toml)
 
 ```toml
 [fuiz]
@@ -63,7 +63,7 @@ Create a directory for fuiz and cd into it then:
 ### Setup Image Backend (Corkboard)
 
 ```bash
-git clone https://gitlab.com/opencode-mit/fuiz/corkboard
+git clone https://gitlab.com/fuiz/corkboard
 cd corkboard/
 cargo run
 ```
@@ -72,7 +72,7 @@ cargo run
 Back to the parent directory
 
 ```bash
-git clone https://gitlab.com/opencode-mit/fuiz/hosted-server
+git clone https://gitlab.com/fuiz/hosted-server
 cd hosted-server/
 cargo run
 ```
@@ -81,7 +81,7 @@ cargo run
 
 
 ```bash
-git clone https://gitlab.com/opencode-mit/fuiz/website
+git clone https://gitlab.com/fuiz/website
 cd website/
 npm install
 ```
@@ -102,5 +102,5 @@ Note: some of these ports can be different depending on your environment.
 Start the project
 
 ```
-npm run dev
+bun run dev
 ```
