@@ -12,7 +12,7 @@ The alternative to Kahoot with enhanced collaboration and problem-solving. Fuiz 
 
 ## Main Instance
 
-Website is hosted at [fuiz.us](https://fuiz.us). We will keep providing this instance for free as long as we are able to.
+Website is hosted at [fuiz.org](https://fuiz.org). We will keep providing this instance for free as long as we are able to.
 
 ## Funding
 
